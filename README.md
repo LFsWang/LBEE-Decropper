@@ -35,9 +35,19 @@ Output: `build/Release/D3D11.dll`
 
 ## Usage / 使用方法
 
-Copy `build/Release/D3D11.dll` to the game directory (same folder as the `.exe`).
+1. Download `D3D11.dll` from [Releases](https://github.com/LFsWang/LBEE-Decropper/releases).
+2. Copy it to the game directory (same folder as the `.exe`).
+3. Launch the game.
 
-將 `build/Release/D3D11.dll` 複製到遊戲目錄（與 `.exe` 同層）即可。
+To uninstall, delete `D3D11.dll` from the game directory.
+
+1. 從 [Releases](https://github.com/LFsWang/LBEE-Decropper/releases) 下載 `D3D11.dll`。
+2. 複製到遊戲目錄（與 `.exe` 同層）。
+3. 啟動遊戲即可。
+
+移除補丁：刪除遊戲目錄中的 `D3D11.dll` 即可還原。
+
+**Requires / 需求**: [Visual C++ Redistributable x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)（大多數電腦已安裝）
 
 ## How It Works / 運作原理
 
